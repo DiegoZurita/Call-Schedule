@@ -36,5 +36,5 @@ n1 n2 n4 .... nm <br />
 
 5 - Again in the Google Or tolls root run the command above to see your schedule
 <pre>
-	./bin/call_schedule < ./call_schedule/data/sample.txt
+	./bin/call_schedule < ./Call-Schedule/data/sample.txt
 </pre>
