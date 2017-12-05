@@ -2,7 +2,7 @@
 Get the optimal schedule given a set of users and for each one the probability to answer in a given period of the time
 
 
-#File Format
+# File Format
 Agents number (int)
 Max calls per interval (int)
 Interval number (int) (m)
@@ -15,7 +15,7 @@ n1 n2 n4 .... nm
 .
 n1 n2 n4 .... nm 
 
-#Observations
+# Observations
 - Table values are float
 - Max m columns and k rowns
 - Must be one space separated
