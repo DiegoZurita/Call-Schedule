@@ -3,17 +3,17 @@ Get the optimal schedule given a set of users and for each one the probability t
 
 
 # File Format
-Agents number (int)
-Max calls per interval (int)
-Interval number (int) (m)
-Customers number (int) (k)
-n1 n2 n4 .... nm
-.. .. .. .... ..
-.. .. .. .... ..
-.
-.
-.
-n1 n2 n4 .... nm 
+Agents number (int) <br />
+Max calls per interval (int)<br />
+Interval number (int) (m)<br />
+Customers number (int) (k)<br />
+n1 n2 n4 .... nm<br />
+.. .. .. .... ..<br />
+.. .. .. .... ..<br />
+.<br />
+.<br />
+.<br />
+n1 n2 n4 .... nm <br />
 
 # Observations
 - Table values are float
@@ -21,7 +21,7 @@ n1 n2 n4 .... nm
 - Must be one space separated
 
 
-#Usage
+# Usage
 
 1 - Instal Google Or Tools (https://developers.google.com/optimization/introduction/installing/binary)
 
