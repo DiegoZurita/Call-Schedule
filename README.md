@@ -25,16 +25,18 @@ n1 n2 n4 .... nm <br />
 
 1 - Instal Google Or Tools (https://developers.google.com/optimization/introduction/installing/binary)
 
-2 - Clone this repo at root of the Google Or Tools folder
+2- Copy Makefile.user to the root Google Or Tools folder
 
-3 - Create Your data file
+3 - Clone this repo at root of the Google Or Tools folder
 
-4 - In the root of Google Or tools run 
+4 - Create Your data file
+
+5 - In the root of Google Or tools run 
 <pre>
 	make ccc EX=Call-Schedule/call_schedule.cc
 </pre>
 
-5 - Again in the Google Or tolls root run the command above to see your schedule
+6 - Again in the Google Or tolls root run the command above to see your schedule
 <pre>
 	./bin/call_schedule < ./Call-Schedule/data/sample.txt
 </pre>
