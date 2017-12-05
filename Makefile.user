@@ -1,0 +1,7 @@
+$(OBJ_DIR)$Scall_schedule.$O: $(EX) $(CVRPTW_DEPS) $(DIMACS_DEPS) $(FAP_DEPS)
+	$(CCC) $(CFLAGS) -c $(EX) $(OBJ_OUT)$(OBJ_DIR)$S$(basename $(notdir $(EX))).$O
+
+$(BIN_DIR)/call_schedule$E: $(OR_TOOLS_LIBS) $(CVRPTW_LIBS) $(DIMACS_LIBS) $(FAP_LIBS) \
+	$(OBJ_DIR)$Scall_schedule.$O
+	$(CCC) $(CFLAGS) $(OBJ_DIR)$Scall_schedule.$O $(OR_TOOLS_LNK) $(CVRPTW_LNK) $(DIMACS_LNK) \
+	$(FAP_LNK) $(OR_TOOLS_LD_FLAGS) $(EXE_OUT)$(BIN_DIR)$Scall_schedule$E
